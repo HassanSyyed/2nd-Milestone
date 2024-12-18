@@ -1,0 +1,63 @@
+body{
+     background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;}
+
+h1{
+    text-align: center;
+    color: rgb(14, 14, 169);
+    
+}
+
+form{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: blue;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset{
+border: 2px solid rgba(17, 20, 10);
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #202d3a;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #202c38;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(250, 255, 243);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+display: block;
+height: 70px;
+width: 90px;
+padding: 10px;
+background: rgb(191, 57, 57);
+color: white;
+border: 3px solid rgb(255, 222, 222);
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+font-size: 17px;
+font-family: sans-serif;
+}
+button:hover{
+    background-color: rgb(113, 176, 19);
+}
